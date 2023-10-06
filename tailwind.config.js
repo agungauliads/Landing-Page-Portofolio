@@ -15,6 +15,7 @@ module.exports = {
         title: "#0B0909",
         titleCc: "#1A100380",
         Socmed: "#F2F7FC",
+        btn: "#FF9C1B",
       },
       backgroundImage: {
         'pp': "url('../public/asset/Profile Picture.jpeg')",
