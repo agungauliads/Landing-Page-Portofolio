@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],
         Raleway: ["Raleway", "sans-serif"],
+        Pacifico: ["Pacifico", "cursive"],
       },
       colors: {
         primary: "#F2F5F9",

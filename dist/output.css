@@ -534,12 +534,185 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-Poppins {
-  font-family: Poppins, sans-serif;
+.container {
+  width: 100%;
 }
 
-.font-Raleway {
-  font-family: Raleway, sans-serif;
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.m-28 {
+  margin: 7rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-28 {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.mx-11 {
+  margin-left: 2.75rem;
+  margin-right: 2.75rem;
+}
+
+.my-11 {
+  margin-top: 2.75rem;
+  margin-bottom: 2.75rem;
+}
+
+.mx-\[\] {
+  margin-left: ;
+  margin-right: ;
+}
+
+.mx-\[100\] {
+  margin-left: 100;
+  margin-right: 100;
+}
+
+.mx-\[100px\] {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-\[18px\] {
+  margin-top: 18px;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[902px\] {
+  margin-bottom: 902px;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[104px\] {
+  height: 104px;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[1240px\] {
+  width: 1240px;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 245 249 / var(--tw-bg-opacity));
+}
+
+.px-11 {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
+
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+.font-Pacifico {
+  font-family: Pacifico, cursive;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .text-accent {
