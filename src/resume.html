@@ -18,32 +18,33 @@
     <!--Header-->
     <header class="flex justify-between items-center">
         <div class="shrink-0 w-[1240px] h-[104px] py-11">
-            <h1 class="font-Pacifico text-[24px] not-italic font-normal">
-                <span class="text-accent">My</span><span class="text-secondary">Portfolio</span>
+            <h1 class="font-Pacifico text-4xl md:text-[24px] not-italic font-normal"">
+                <span class=" text-accent">My</span><span class="text-secondary">Portfolio</span>
             </h1>
         </div>
     </header>
-    <div class="flex">
+    <div class="col-auto md:flex">
         <!--Profile Card-->
-        <div class="font-Raleway w-[400px] h-[852px] shrink-0 bg-white rounded-[20px] shadow-[0_0_0_0_rgb(0,0,0,0.25)]">
+        <div
+            class="font-Raleway py-5 md:w-[400px] md:h-[852px] shrink-0 bg-white rounded-[20px] shadow-[0_0_0_0_rgb(0,0,0,0.25)]">
             <!--Profile Picture-->
             <div
-                class="w-[200px] h-[200px] shrink-0 rounded-[20px] shadow-[0_0_4px_0_rgb(0,0,0,0.25)] mt-[52px] ml-[92px] mr-[128px] bg-pp bg-cover bg-no-repeat bg-slate-200 bg-opacity-50">
+                class="w-[200px] h-[200px] shrink-0 rounded-[20px] shadow-[0_0_4px_0_rgb(0,0,0,0.25)] ml-[30%] md:mt-[52px] md:ml-[92px] md:mr-[128px] bg-pp bg-cover bg-no-repeat bg-slate-200 bg-opacity-50">
             </div>
             <!--Name-->
-            <div class="flex ml-[83px] mt-[14px] mr-[81px]">
+            <div class="justify-center flex mt-5 md:ml-[83px] md:mt-[14px] md:mr-[81px]">
                 <h1 class="text-title font-bold text-[28.42px] leading-[35.525px] not-italic">
                     Beatrice Wambui
                 </h1>
             </div>
             <!--Position-->
-            <div class="flex ml-[124.5px] mt-[4px] mr-[123.5px]">
+            <div class="justify-center flex md:ml-[124.5px] md:mt-[4px] md:mr-[123.5px]">
                 <p class="text-[16px] not-italic font-medium leading-[40px] text-title opacity-50">
                     FullStack Developer
                 </p>
             </div>
             <!--Social Media-->
-            <div class="ml-[58px] mt-[6px] mr-[46px] flex justify-center items-center gap-[8.629px]">
+            <div class="md:ml-[58px] md:mt-[6px] md:mr-[46px] flex justify-center items-center gap-[8.629px]">
                 <!--Facebook-->
                 <div class="py-[20.71px] px-[24.8px] rounded-[8.269px] bg-Socmed">
                     <img src="../public/asset/Facebook.svg" alt="Facebook" />
@@ -62,7 +63,8 @@
                 </div>
             </div>
             <!--Contact Card-->
-            <div class="mx-[25px] mt-[22.81px] mb-[66px] w-[350px] h-[350px] rounded-[20px] shrink-0 bg-primary">
+            <div
+                class="mx-auto md:mx-[25px] mt-[22.81px] md:mb-[66px] w-[350px] h-[350px] rounded-[20px] shrink-0 bg-primary">
                 <!--Phone-->
                 <div class="flex justify-start items-center gap-2.5">
                     <div class="ml-[38px] mt-[30px] p-2.5">
@@ -123,7 +125,7 @@
         <div>
             <!--NavBar-->
             <nav
-                class="flex justify-center items-center ml-[275px] mt-[42px] mr-[162px] w-[503px] h-[100px] rounded-[20px] bg-Socmed">
+                class="flex justify-center items-center md:ml-[275px] md:mt-[42px] md:mr-[162px] w-[503px] md:h-[100px] rounded-[20px] bg-Socmed">
                 <!--Home-->
                 <div
                     class="flex flex-col justify-center items-center my-2.5 ml-[95px] w-20 h-20 rounded-[20px] bg-[#E1E8EF]">
@@ -160,51 +162,66 @@
             </nav>
             <!--Resume Card-->
             <div
-                class="flex-row shrink-0 items-center ml-[20px] mt-[10px] mr-[100px] mb-[50px] w-[820px] h-[700px] rounded-[20px] bg-white shadow-[0_0_0_0_rgb(0,0,0,0.25)]">
+                class="shrink-0 items-center mx-auto pb-3 md:ml-[20px] md:mt-[10px] md:mr-[100px] md:mb-[50px] md:w-[820px] md:h-[700px] rounded-[20px] bg-white shadow-[0_0_0_0_rgb(0,0,0,0.25)]">
                 <!--Resume-->
-                <div class="inline-flex items-center justify-center ml-[72px] mt-[18px] mr-[252px] gap-[32px]">
+                <div
+                    class="inline-flex items-center justify-center ml-8 md:ml-[72px] mt-[18px] md:mr-[252px] md:gap-[32px]">
                     <h1 class="w-[212px] font-Poppins text-[40px] tracking-[1px] leading-10 font-medium text-title">
                         RESUME
                     </h1>
                     <img src="../public/asset/Line 5.svg" alt="line5" />
                 </div>
-                <div class="flex w-[563.989px] h-[46.229px] ml-[72px] mt-[13px] mr-[184.01px] items-start gap-[160px] shrink-0">
+                <div
+                    class="flex w-[563.989px] h-[46.229px] ml-9 md:ml-[72px] mt-[13px] mr-[184.01px] items-start gap-9 md:gap-[160px] shrink-0">
                     <div class="flex items-center gap-[9.246px]">
                         <img src="../public/asset/Education.svg" alt="Education">
-                        <h1 class="text-black font-Poppins text-[27.737px] font-medium leading-[46.229px] tracking-[0.693px]">Education</h1>
+                        <h1
+                            class="text-black font-Poppins text-[27.737px] font-medium leading-[46.229px] tracking-[0.693px]">
+                            Education</h1>
                     </div>
                     <div class="flex items-center gap-[9.25px]">
                         <img src="../public/asset/Exp.svg" alt="experience">
-                        <h1 class="text-black font-Poppins text-[27.737px] font-medium leading-[46.229px] tracking-[0.693px]">Experience</h1>
+                        <h1
+                            class="text-black font-Poppins text-[27.737px] font-medium leading-[46.229px] tracking-[0.693px]">
+                            Experience</h1>
                     </div>
                 </div>
                 <!--Education & Exp Card-->
-                <div class="flex ml-[72px] mt-[21px] mr-[111.07px]">
-                    <div class="w-[288.929px] h-[115.572px] shrink-0 rounded-[9.246px] bg-[#FFE3BF]">
-                        <div class="mt-[13px] flex-col items-start justify-center p-[9.246px] gap-[9.246px] font-Raleway">
+                <div class="flex ml-10 md:ml-[72px] md:mt-[21px] md:mr-[111.07px] mb-2 md:mb-0">
+                    <div class="md:w-[288.929px] h-[115.572px] shrink-0 rounded-[9.246px] bg-[#FFE3BF]">
+                        <div
+                            class="mt-[13px] flex-col items-start justify-center p-[9.246px] gap-[9.246px] font-Raleway">
                             <h3 class="text-black text-[13.869px] font-normal leading-normal opacity-50">2020-2021</h3>
-                            <h3 class="text-black text-[13.869px] font-semibold leading-normal">Software Development</h3>
+                            <h3 class="text-black text-[13.869px] font-semibold leading-normal">Software Development
+                            </h3>
                             <h3 class="text-black text-[13.869px] font-medium leading-normal">Moringa School</h3>
                         </div>
                     </div>
-                    <div class="ml-[59.7px] w-[288.929px] h-[115.572px] shrink-0 rounded-[9.246px] bg-[#FFEED9]">
-                        <div class="mt-[13px] flex-col items-start justify-center p-[9.246px] gap-[9.246px] font-Raleway">
-                            <h3 class="text-black text-[13.869px] font-normal leading-normal opacity-50">2022 - Present</h3>
+                    <div
+                        class="ml-[59.7px] px-4 md:w-[288.929px] h-[115.572px] shrink-0 rounded-[9.246px] bg-[#FFEED9]">
+                        <div
+                            class="mt-[13px] flex-col items-start justify-center p-[9.246px] gap-[9.246px] font-Raleway">
+                            <h3 class="text-black text-[13.869px] font-normal leading-normal opacity-50">2022 - Present
+                            </h3>
                             <h3 class="text-black text-[13.869px] font-semibold leading-normal">Technical Mentor</h3>
                             <h3 class="text-black text-[13.869px] font-medium leading-normal">Moringa School</h3>
                         </div>
                     </div>
                 </div>
-                <div class="flex ml-[72px] mt-[24px] mr-[111.07px]">
-                    <div class="w-[288.929px] h-[115.572px] shrink-0 rounded-[9.246px] bg-[#FFEED9]">
-                        <div class="mt-[13px] flex-col items-start justify-center p-[9.246px] gap-[9.246px] font-Raleway">
+                <div class="flex ml-10 md:ml-[72px] md:mt-[21px] md:mr-[111.07px]">
+                    <div class="md:w-[288.929px] h-[115.572px] shrink-0 rounded-[9.246px] bg-[#FFE3BF]">
+                        <div
+                            class="mt-[13px] flex-col items-start justify-center p-[9.246px] gap-[9.246px] font-Raleway">
                             <h3 class="text-black text-[13.869px] font-normal leading-normal opacity-50">2012-2016</h3>
                             <h3 class="text-black text-[13.869px] font-semibold leading-normal">Disaster Management</h3>
-                            <h3 class="text-black text-[13.869px] font-medium leading-normal">Masinde Muliro Universiity</h3>
+                            <h3 class="text-black text-[13.869px] font-medium leading-normal">Masinde Muliro Universiity
+                            </h3>
                         </div>
                     </div>
-                    <div class="ml-[59.7px] w-[288.929px] h-[115.572px] shrink-0 rounded-[9.246px] bg-[#FFE3BF]">
-                        <div class="mt-[13px] flex-col items-start justify-center p-[9.246px] gap-[9.246px] font-Raleway">
+                    <div
+                        class="ml-10 md:ml-[59.7px] px-4 md:w-[288.929px] h-[115.572px] shrink-0 rounded-[9.246px] bg-[#FFEED9]">
+                        <div
+                            class="mt-[13px] flex-col items-start justify-center p-[9.246px] gap-[9.246px] font-Raleway">
                             <h3 class="text-black text-[13.869px] font-normal leading-normal opacity-50">2021-2022</h3>
                             <h3 class="text-black text-[13.869px] font-semibold leading-normal">Website Development</h3>
                             <h3 class="text-black text-[13.869px] font-medium leading-normal">Village 2 Nation</h3>
@@ -212,39 +229,61 @@
                     </div>
                 </div>
                 <!--Work Skills & Soft Skills-->
-                <div class="flex-row justify-between items-start mt-[35.86px] mb-full bg-[#F8FBFB] w-[820px] h-[270.55px] rounded-[8px]">
-                    <div class="flex justify-between items-start w-[492px] ml-[72px] mr-[256px]">
-                        <h1 class="font-Poppins text-black text-[27.737px] font-medium leading-[46.229px] tracking-[0.693px]">Work Skills</h1>
-                        <h1 class="font-Poppins text-black text-[27.737px] font-medium leading-[46.229px] tracking-[0.693px]">Soft Skills</h1>
+                <div
+                    class="flex-row justify-between items-start mt-[35.86px] mb-full bg-[#F8FBFB] md:w-[820px] md:h-[270.55px] rounded-[8px]">
+                    <div class="flex justify-between items-start w-[492px] md:ml-[72px] md:mr-[256px]">
+                        <h1
+                            class="font-Poppins text-black text-[27.737px] font-medium leading-[46.229px] tracking-[0.693px]">
+                            Work Skills</h1>
+                        <h1
+                            class="font-Poppins text-black text-[27.737px] font-medium leading-[46.229px] tracking-[0.693px]">
+                            Soft Skills</h1>
                     </div>
                     <div class="flex justify-between items-start mt-[8px] ml-[72px] mr-[111.07px]">
-                        <div class="w-[288.929px] justify-between items-center font-Raleway text-[12px] font-normal leading-6 tracking-[0.24px]">
+                        <div
+                            class="w-[288.929px] justify-between items-center font-Raleway text-[12px] font-normal leading-6 tracking-[0.24px]">
                             <span class="mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">NEXT.js</span>
                             <span class="mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">React.js</span>
                             <span class="mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">HTML 5</span>
-                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">CSS 3</span>
-                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Tailwind CSS</span>
-                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Figma </span>
-                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">JavaScript</span>
-                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Mongo DB</span>
-                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">SQL</span>
-                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Angular</span>
-                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Android</span>
-                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Git</span>
+                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">CSS
+                                3</span>
+                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Tailwind
+                                CSS</span>
+                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Figma
+                            </span>
+                            <span
+                                class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">JavaScript</span>
+                            <span class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Mongo
+                                DB</span>
+                            <span
+                                class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">SQL</span>
+                            <span
+                                class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Angular</span>
+                            <span
+                                class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Android</span>
+                            <span
+                                class="mt-[13px] mr-[30px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Git</span>
                         </div>
-                        <div class="w-[288.929px] justify-between items-center font-Raleway text-[12px] font-normal leading-6 tracking-[0.24px]">
-                            <span class="mr-[15px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Time Management</span>
+                        <div
+                            class="w-[288.929px] justify-between items-center font-Raleway text-[12px] font-normal leading-6 tracking-[0.24px]">
+                            <span class="mr-[15px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Time
+                                Management</span>
                             <span class="mr-[15px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Mentorship</span>
-                            <span class="mt-[13px] mr-[15px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Impeccable Communication</span>
-                            <span class="mt-[13px] mr-[15px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Flexibility</span>
-                            <span class="mt-[13px] mr-[15px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Research</span>
-                            <span class="mt-[13px] mr-[15px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Writing</span>
+                            <span
+                                class="mt-[13px] mr-[15px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Impeccable
+                                Communication</span>
+                            <span
+                                class="mt-[13px] mr-[15px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Flexibility</span>
+                            <span
+                                class="mt-[13px] mr-[15px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Research</span>
+                            <span
+                                class="mt-[13px] mr-[15px] inline-flex px-2 py-1 rounded-[8px] bg-[#E1E8EF]">Writing</span>
                         </div>
                     </div>
                 </div>
-                </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 
